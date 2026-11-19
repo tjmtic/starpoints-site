@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starpoints — Privacy Policy</title>
+<style>
+  :root { --bg:#0b1220; --panel:#111a2e; --text:#e6edf3; --muted:#9fb0c3; --accent:#f2c14e; --accent2:#2f81f7; --line:#223049; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f8fa; --panel:#ffffff; --text:#1f2328; --muted:#57606a; --accent:#9a6700; --line:#d0d7de; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  header { display:flex; align-items:center; gap:12px; padding:18px 24px; border-bottom:1px solid var(--line); }
+  header img { width:36px; height:36px; border-radius:9px; }
+  header a { color:var(--text); text-decoration:none; font-weight:600; }
+  header nav { margin-left:auto; display:flex; gap:18px; }
+  header nav a { color:var(--muted); font-weight:500; }
+  main { max-width:1040px; margin:0 auto; padding:0 24px 48px; }
+  .hero { padding:44px 0 24px; max-width:680px; }
+  .hero h1 { font-size:2.5rem; line-height:1.15; margin:0 0 14px; }
+  .hero h1 span { color:var(--accent); }
+  .hero p { font-size:1.12rem; color:var(--muted); margin:0 0 22px; }
+  .cta { display:inline-flex; align-items:center; gap:8px; background:var(--accent); color:#1a1300; font-weight:700; padding:12px 20px; border-radius:10px; text-decoration:none; }
+  .shots { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin:12px 0 20px; }
+  .shots figure { margin:0; }
+  .shots img { width:100%; aspect-ratio:9/16; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:var(--panel); display:block; }
+  .shots figcaption { color:var(--muted); font-size:.92rem; margin-top:8px; text-align:center; }
+  .facts { color:var(--muted); font-size:.95rem; margin:0 0 14px; }
+  .trust { border-left:4px solid var(--accent2); padding:6px 16px; color:var(--muted); background:var(--panel); border-radius:0 10px 10px 0; margin:0; }
+  footer { max-width:1040px; margin:0 auto; padding:0 24px 40px; color:var(--muted); font-size:.9rem; display:flex; gap:16px; flex-wrap:wrap; }
+  footer a, .trust a { color:var(--accent2); }
+  @media (max-width:760px) { .shots { grid-template-columns:repeat(2,1fr); } .hero h1 { font-size:2rem; } }
+</style>
+</head>
+<body>
+<main class="policy" style="max-width:760px;margin:0 auto;padding:24px 16px">
+<p><a href="./">← Starpoints</a></p>
+<h1>Privacy Policy</h1>
+<p>Starpoints for Android (<code>com.abyxcz.starpoints</code>) · Effective <strong>[date it goes live]</strong></p>
+<p><strong>The short version</strong></p>
+<ul>
+<li>There are <strong>no accounts, no sign-in, no advertising, no analytics and no crash reporting</strong>.</li>
+<li>Starpoints <strong>has no internet permission</strong>, so the app cannot connect to the internet. It has no servers.</li>
+<li>The <strong>camera and your location are used on your phone only</strong>, while AR mode is open. Camera images
+are never saved, and your location is never saved.</li>
+<li>What the app does save (your saved stars and views, settings, quiz score and Guide voice) stays in
+the app&#39;s private storage on your phone, and in your own Android backup if you use one.</li>
+<li>The on-device language model is delivered by <strong>Google Play</strong> after install, the same way the app is.</li>
+</ul>
+<h2>1. What Starpoints does</h2>
+<p>Starpoints draws the night sky from a star catalog stored inside the app: stars to magnitude 8, the
+88 constellations, and the 110 Messier objects. <strong>Map mode</strong> is a chart you drag and pinch, and it
+needs no permissions. <strong>AR mode</strong> draws the same sky over your camera&#39;s live view, placed using your
+location, the time and the way you hold the phone. The <strong>Ask</strong> box, the <strong>Quiz</strong> reactions and the
+<strong>Guide</strong> use a small language model that runs on the phone. All of this is computed on your device.</p>
+<h2>2. Information the app uses, and where it stays</h2>
+<table>
+<thead>
+<tr>
+<th>Information</th>
+<th>Why</th>
+<th>Where it goes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Camera live view</td>
+<td>AR mode: the picture behind the drawn sky</td>
+<td>Shown on screen only. The app does not record, save, analyse or send camera images.</td>
+</tr>
+<tr>
+<td>Your location (precise or approximate, whichever you allow)</td>
+<td>AR mode: which part of the sky is overhead where you stand, and the compass&#39;s correction to true north</td>
+<td>Kept in memory while AR mode is open, and refreshed at most once a minute. It is never written to storage and never sent anywhere. Android supplies it from GPS or from its own network location service.</td>
+</tr>
+<tr>
+<td>Motion sensors (compass, gyroscope)</td>
+<td>AR mode: which way the phone points</td>
+<td>Read while AR mode is open, kept in memory only.</td>
+</tr>
+<tr>
+<td>Saved stars and views</td>
+<td>Your list of saved points</td>
+<td>A file in the app&#39;s private storage: the name, the point&#39;s sky coordinates (right ascension and declination), the time you saved it, and the star&#39;s catalog number. It does <strong>not</strong> contain your location.</td>
+</tr>
+<tr>
+<td>Settings</td>
+<td>Constellation lines, star names, constellation names, the fainter/brighter setting, and whether the Guide writes on this phone</td>
+<td>A file in the app&#39;s private storage.</td>
+</tr>
+<tr>
+<td>Quiz score</td>
+<td>Points, streak, best streak, questions answered and answered right</td>
+<td>A file in the app&#39;s private storage.</td>
+</tr>
+<tr>
+<td>Guide voice</td>
+<td>Which Guide voice you picked</td>
+<td>A file in the app&#39;s private storage.</td>
+</tr>
+<tr>
+<td>What you type in Search or Ask</td>
+<td>Finding a star, a constellation or a Messier object; Ask is read by the on-device model</td>
+<td>Used on the phone, not saved, not sent.</td>
+</tr>
+<tr>
+<td>Text the on-device model writes (Guide entries, quiz reactions)</td>
+<td>Shown to you</td>
+<td>Written on the phone, kept in memory while the app runs, not saved, not sent.</td>
+</tr>
+</tbody></table>
+<p>Starpoints does not collect your name, email address, contacts, photos, files, identifiers or any
+other personal information.</p>
+<h2>3. Permissions</h2>
+<table>
+<thead>
+<tr>
+<th>Permission</th>
+<th>Used for</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>CAMERA</code></td>
+<td>AR mode&#39;s live view. Asked the first time you choose AR. Map mode works without it.</td>
+</tr>
+<tr>
+<td><code>ACCESS_FINE_LOCATION</code>, <code>ACCESS_COARSE_LOCATION</code></td>
+<td>AR mode only; either one is enough. Asked the first time you choose AR. Starpoints never asks for background location.</td>
+</tr>
+<tr>
+<td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_DATA_SYNC</code>, <code>WAKE_LOCK</code>, <code>ACCESS_NETWORK_STATE</code>, <code>RECEIVE_BOOT_COMPLETED</code></td>
+<td>Added by Google&#39;s Play Asset Delivery library, and the AndroidX WorkManager library it uses, so Google Play can deliver and unpack the on-device model (section 4). Starpoints&#39; own code does not use them. <code>ACCESS_NETWORK_STATE</code> only tells the phone whether it is online; it does not let the app connect to the internet.</td>
+</tr>
+</tbody></table>
+<p>Starpoints does <strong>not</strong> request internet access, the advertising ID, the microphone, contacts,
+photos or media, background location, or notifications.</p>
+<h2>4. The on-device model and Google Play</h2>
+<p>Ask, the Quiz reactions and the Guide use <strong>MiniCPM5-2B</strong> (by OpenBMB, Apache License 2.0), run by
+llama.cpp on your phone. The model is about <strong>1.56 GB</strong>. Google Play downloads it as an asset pack
+straight after the app installs, and may wait for Wi-Fi before it does. Until it arrives, everything
+else in the app works.</p>
+<p>To deliver the right pack, Google&#39;s Play Asset Delivery library tells Google Play your device&#39;s
+metadata and the app&#39;s version. Google describes this data as encrypted, not transferred to third
+parties, and deleted after a fixed retention period. That exchange is between your phone and Google
+Play and is covered by Google&#39;s privacy policy. Starpoints never receives it.</p>
+<p>Everything you type into Ask and everything the model writes stays on the phone. Facts about a star
+(its brightness, colour, position) are computed from the catalog, never by the model. Guide entries
+are labelled as fiction.</p>
+<h2>5. Backups</h2>
+<p>Android backs up apps&#39; files to your Google account when backup is switched on for your phone.
+Starpoints&#39; saved points, settings, quiz score and Guide voice may be included. That backup belongs
+to your Google account and is governed by Google&#39;s privacy policy; Starpoints cannot read it. You
+can exclude the app or turn backups off in your phone&#39;s settings.</p>
+<h2>6. Third parties and credits</h2>
+<p>Starpoints contains no advertising, analytics, crash-reporting or tracking SDKs, and shares nothing
+with third parties. The only Google component in the app is Play Asset Delivery (section 4).
+Starpoints is distributed through
+<a data-studio="playListing" href="#">Google Play</a>, which has its own privacy policy covering
+downloads and updates.</p>
+<p>The star catalog comes from d3-celestial by Olaf Frohn (BSD 3-Clause License), and its Messier
+data from SEDS. Both are credited, with the model&#39;s licence, on the app&#39;s About screen.</p>
+<h2>7. Deleting your data</h2>
+<p>Everything Starpoints keeps is on your phone, so you delete it yourself: delete saved points in the
+app, clear the app&#39;s storage in Android&#39;s settings, or uninstall the app, which removes all of it.
+There is nothing to request from us, because we hold nothing.</p>
+<h2>8. Children</h2>
+<p>Starpoints is a general-audience astronomy app and is not directed at children under 13. It collects
+no personal information from anyone.</p>
+<h2>9. Changes to this policy</h2>
+<p>If a future version changes what the app does with data (for example an iOS version, or any feature
+that uses the internet), this page will be updated before that version ships, with the effective
+date above revised.</p>
+<h2>10. Contact</h2>
+<!-- data-studio markers are rewritten by the studio's "Apply to site" (Store details). -->
+<p>Questions about this policy: <strong><a data-studio="contactEmail" href="mailto:playentitim@gmail.com">playentitim@gmail.com</a></strong>.</p>
+
+</main>
+</body>
+</html>

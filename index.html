@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Starpoints — the night sky on your phone</title>
+<meta name="description" content="Starpoints draws more than 41,000 stars, the 88 constellations and the Messier objects over your phone's camera. No account, no ads, no internet permission.">
+<meta property="og:title" content="Starpoints">
+<meta property="og:description" content="Point your phone at the night sky and see the stars, constellations and Messier objects that are there.">
+<meta property="og:image" content="icon.png">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#0b1220; --panel:#111a2e; --text:#e6edf3; --muted:#9fb0c3; --accent:#f2c14e; --accent2:#2f81f7; --line:#223049; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f8fa; --panel:#ffffff; --text:#1f2328; --muted:#57606a; --accent:#9a6700; --line:#d0d7de; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  header { display:flex; align-items:center; gap:12px; padding:18px 24px; border-bottom:1px solid var(--line); }
+  header img { width:36px; height:36px; border-radius:9px; }
+  header a { color:var(--text); text-decoration:none; font-weight:600; }
+  header nav { margin-left:auto; display:flex; gap:18px; }
+  header nav a { color:var(--muted); font-weight:500; }
+  main { max-width:1040px; margin:0 auto; padding:0 24px 48px; }
+  .hero { padding:44px 0 24px; max-width:680px; }
+  .hero h1 { font-size:2.5rem; line-height:1.15; margin:0 0 14px; }
+  .hero h1 span { color:var(--accent); }
+  .hero p { font-size:1.12rem; color:var(--muted); margin:0 0 22px; }
+  .cta { display:inline-flex; align-items:center; gap:8px; background:var(--accent); color:#1a1300; font-weight:700; padding:12px 20px; border-radius:10px; text-decoration:none; }
+  .shots { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin:12px 0 20px; }
+  .shots figure { margin:0; }
+  .shots img { width:100%; aspect-ratio:9/16; object-fit:cover; border-radius:18px; border:1px solid var(--line); background:var(--panel); display:block; }
+  .shots figcaption { color:var(--muted); font-size:.92rem; margin-top:8px; text-align:center; }
+  .facts { color:var(--muted); font-size:.95rem; margin:0 0 14px; }
+  .trust { border-left:4px solid var(--accent2); padding:6px 16px; color:var(--muted); background:var(--panel); border-radius:0 10px 10px 0; margin:0; }
+  footer { max-width:1040px; margin:0 auto; padding:0 24px 40px; color:var(--muted); font-size:.9rem; display:flex; gap:16px; flex-wrap:wrap; }
+  footer a, .trust a { color:var(--accent2); }
+  @media (max-width:760px) { .shots { grid-template-columns:repeat(2,1fr); } .hero h1 { font-size:2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <a href="./">Starpoints</a>
+  <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <h1>Point your phone at the night sky. <span>See what's there.</span></h1>
+    <p>Starpoints draws more than 41,000 stars, the 88 constellations and the 110 Messier objects over your camera, placed from where you stand, the time and the way you hold the phone. Clouds or city glow in the way? The sky is drawn from the catalog inside the app, so it is still there.</p>
+    <!-- href is filled by the studio's "Apply to site" (Store details → Play listing). -->
+    <a class="cta" data-studio="playListing" href="#">Get it on Google Play</a>
+  </section>
+
+  <div class="shots">
+    <figure><img src="screens/1-map.png" alt="Map mode: stars with constellation lines and names"><figcaption>Drag and pinch the whole sky.</figcaption></figure>
+    <figure><img src="screens/2-ar.png" alt="AR mode outdoors: constellations drawn over the camera view"><figcaption>Hold it up outdoors: the sky over the camera.</figcaption></figure>
+    <figure><img src="screens/3-card.png" alt="A star's card with its magnitude, colour, position and direction"><figcaption>Tap a star for its facts.</figcaption></figure>
+    <figure><img src="screens/4-night.png" alt="Night mode: the interface in dim red"><figcaption>Red, to keep your night vision.</figcaption></figure>
+  </div>
+
+  <p class="facts">41,411 stars · 88 constellations · 110 Messier objects · Night mode</p>
+  <p class="trust">Starpoints has no internet permission, no account and no ads. The camera and your location are used on the phone and never saved. <a href="privacy.html">Read the privacy policy.</a></p>
+</main>
+<footer>
+  <span>© 2026 Starpoints</span>
+  <a href="privacy.html">Privacy Policy</a>
+  <a href="terms.html">Terms of Use</a>
+  <!-- data-studio markers are rewritten by the studio's "Apply to site" (Store details). -->
+  <a data-studio="contactEmail" href="mailto:playentitim@gmail.com">playentitim@gmail.com</a>
+</footer>
+</body>
+</html>
